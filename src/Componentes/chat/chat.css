@@ -1,0 +1,22 @@
+.chat-conteudo{
+    display:grid;
+    grid-template-rows: 80px auto 70px;
+    padding:3px;
+    background: rgb(234, 234, 241);;
+    height: calc(100vh - 150px);
+}
+.chat-header{
+background: rgb(207, 203, 203);
+text-align: center;
+}
+.chat-mensagem{
+background:#f8eded;
+
+
+}
+.chat-conversa{
+background: #f1f1f1;
+}
+.enviar{
+width: 100%;
+}

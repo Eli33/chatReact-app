@@ -1,0 +1,25 @@
+[debug] [2018-12-14T11:50:49.083Z] ----------------------------------------------------------------------
+[debug] [2018-12-14T11:50:49.088Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\qw\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2018-12-14T11:50:49.089Z] CLI Version:   6.1.2
+[debug] [2018-12-14T11:50:49.089Z] Platform:      win32
+[debug] [2018-12-14T11:50:49.089Z] Node Version:  v10.14.1
+[debug] [2018-12-14T11:50:49.100Z] Time:          Fri Dec 14 2018 09:50:49 GMT-0200 (GMT-02:00)
+[debug] [2018-12-14T11:50:49.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-14T11:50:49.134Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-14T11:50:49.137Z] > authorizing via signed-in user
+[debug] [2018-12-14T11:50:49.137Z] [iam] checking project chatbot-em-react-app for permissions ["firebase.projects.get"]
+[debug] [2018-12-14T11:50:49.141Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chatbot-em-react-app:testIamPermissions  
+
+[debug] [2018-12-14T11:50:50.195Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-12-14T11:50:54.762Z] Fetching environment
+[debug] [2018-12-14T11:50:54.774Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chatbot-em-react-app  
+ 
+[debug] [2018-12-14T11:50:55.690Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-14T11:50:55.691Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1013257619244:getServerAppConfig  
+ 
+[debug] [2018-12-14T11:50:56.055Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-14T11:50:56.056Z] Starting @google-cloud/functions-emulator
+[debug] [2018-12-14T11:51:06.410Z] Parsing function triggers
+[info] +  functions: conversa
